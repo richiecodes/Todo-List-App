@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "todo-list",
+    "name": "My To-do List",
     "slug": "todo-list",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,7 +8,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#E0E0E0"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,12 +22,14 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#E0E0E0"
+      },
+      "package": "com.richiecodes.todolist"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "alpha"
+    "description": "alpha",
+    "githubUrl": "https://github.com/richiecodes/Todo-List-App"
   }
 }

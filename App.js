@@ -52,6 +52,8 @@ export default function App() {
           </View>
         </TouchableOpacity>
       </KeyboardAvoidingView>
+      
+      <Text style={styles.footer}>(C) 2021 Richie Codes. All rights reserved.</Text>
 
     </View>
     
@@ -70,7 +72,8 @@ const styles = StyleSheet.create({
   sectionTitle:{
     fontFamily: 'Roboto',
     fontSize: 24,
-    fontWeight: 'bold'},
+    fontWeight: 'bold',
+  },
   items:{
     marginTop: 30,
   },
@@ -101,4 +104,13 @@ const styles = StyleSheet.create({
     fontSize: 48,
     opacity: 0.2
   },
+  footer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    textAlign: 'center',
+    marginTop: 595,
+    fontSize: 12,
+    color: 'gray',
+    position: 'relative'
+  }
 });
